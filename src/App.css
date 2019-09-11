@@ -1,0 +1,230 @@
+/* Navbar  */
+.mr-auto {
+  margin: 0px !important;
+}
+.main-nav-bar {
+  background-color: white !important;
+  margin: 0px 13%;
+}
+#basic-navbar-nav {
+  justify-content: flex-end;
+}
+/* End of Navbar  */
+
+/* Slogan */
+.slogan {
+  margin: 33px auto 60px;
+}
+.star {
+  width: 40px;
+}
+.slogan-text {
+  color: #00bfa5;
+  margin: 34px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 2.3em;
+}
+/* End of  Slogan */
+
+/* Paragraphe */
+.headding-paragraphe {
+  color: rgb(138, 137, 137);
+  font-weight: 400;
+}
+/*  End of Paragraphe */
+
+/* Card */
+.imgPc {
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+
+h6 {
+  color: white;
+  opacity: 0.7;
+}
+
+h3 {
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.col {
+  width: 457px;
+  height: 412px;
+  padding: 30px;
+  padding-left: 50px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* End Of Card */
+
+/* Companies */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 23px;
+  align-items: flex-start;
+}
+
+h1 {
+  flex: 1 0 0;
+  font-size: 30px;
+  color: #00bfa5;
+  font-weight: 400;
+}
+
+.liste-companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex: 2 0 0;
+  margin-left: 100px;
+}
+svg {
+  opacity: 0.3;
+  margin: 5px 10px;
+}
+svg:hover {
+  opacity: 1;
+  fill: #00bfa5;
+}
+.companies-logo {
+  margin: 8px -17px;
+}
+
+/* End of Companies */
+
+/* Health */
+.stats-section {
+  background-image: url(./bg.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: repeat-y;
+  height: 600px;
+  margin-top: 30px;
+}
+
+.stats-grid {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.stats-text {
+  flex: 1 60%;
+  margin-top: 30px;
+  padding: 40px;
+}
+.work {
+  color: rgb(135, 133, 133);
+}
+.row-stats {
+  margin-top: 13%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  align-items: center;
+}
+.card-stats {
+  border: none !important;
+  border-radius: 6px;
+  margin: 5px 0px;
+  box-shadow: 1px 3px 1px 0px rgba(0, 0, 0, 0.129);
+}
+.paragraphe-cards {
+  font-size: 14px;
+  color: rgb(135, 133, 133);
+}
+h4 {
+  color: #00bfa5;
+}
+img {
+  margin: 10px;
+}
+.text-cards {
+  text-align: center;
+}
+/*End of  Health */
+/* Achivement */
+.achievement {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.achievement-heading {
+  padding-top: 90px;
+}
+.achievement-paragraphe {
+  padding-top: 10px;
+  color: rgb(135, 133, 133);
+}
+/* Achivement */
+
+/* CardPlaces */
+.img-country {
+  width: 94%;
+}
+.row-countries {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-countries {
+  margin: 0px;
+}
+.one-card:hover {
+  box-shadow: 10px 10px 53px -9px rgba(0, 0, 0, 0.19);
+}
+.btnAndTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: auto;
+  align-items: baseline;
+}
+
+.one-card {
+  border: none !important;
+  border-radius: 6px;
+  margin: 5px 0px;
+}
+/* CardPlaces */
+
+/* footer */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid rgb(221, 220, 220);
+}
+.footer-title {
+  color: blue;
+  font-weight: 300;
+  font-size: 13px;
+}
+span {
+  color: rgb(169, 165, 165);
+}
+.footer-paragraphe {
+  color: rgb(169, 165, 165);
+  font-size: 13px;
+  font-weight: 300;
+}
+.website {
+  color: rgb(169, 165, 165);
+  font-size: 14px;
+  font-weight: 400;
+}
+/* footer */
